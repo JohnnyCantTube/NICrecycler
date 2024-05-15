@@ -25,3 +25,7 @@ Does not require a Human(Partner) at the laptop adapter while User inspects dist
 the total time delay can be made long enough to walk over to the switch location in a Riser or Closet.
 
 comments to radcomtech@outlook.com
+I build my own Electronics Tools:
+I plan to build a DIY test set just like this with two RJ45 ports and a DPDT reed relay driven slowly by a NE555 timer and 2N3904 running on a 9V battery;
+but this physical Ethernet Twisted pair interrupter set still requires an active NIC to test towards the switch
+and the software version here would accomplish the same objective without build cost.
