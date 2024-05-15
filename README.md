@@ -8,14 +8,14 @@ A powerShell Script to
 2. let the user select a Network Port with a number list [#]
 3. allow entry of an overall cycle time [X] (60 Sec default)
 4. allow entry of the DISABLE time [Y} (1.5 Sec default)
-5. allow entry of the enable delay time [Z] (3.5 Sec default)
+5. allow entry of the ENABLE delay time [Z] (3.5 Sec default)
 6. Toggle the selected Physical Adapter Port [#} over total X seconds with Y disable delay and Z enable delay
 7. exit the script gracefully leaving the Physical Port UP/Enabled
 
  Purpose: To Cycle the Physical Port when LLDP CDP or EDP are unavailable at the Network Hub Switch
 so that a USER can trace a specific Jack back to a specific Network Hub Switch Port,
 using the LINK and ACT LEDs on that Switch to identify the link.
-The routine figures out specific Windows Port Naes, and helps a USER select the port.
+The routine figures out specific Windows Port Names, and helps a USER select the port.
 Uses only a Windows Laptop (or Desktop) Ethernet Port as the ID tool without the need for
 expensive handheld Network testing tool.
 
